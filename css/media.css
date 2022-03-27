@@ -1,0 +1,113 @@
+@media (max-width:920px) {
+    .item4card {
+        margin: 0 5%;
+    }
+    .card {
+        height: 350px;
+        width: 200px;
+    }
+}
+@media (max-width:768px) {
+    .main-part {
+        background-image: url(/assets/images/start\ screen\ 768.png);
+        height: 114vh;
+    }
+    .main-text {
+        padding-top: 20px;
+    }
+    .header-wrapper {
+        padding: 0 4%;
+        margin-top: 4%;
+    }
+    .logo-title {
+        font-size: 2rem;
+        letter-spacing: 0.10rem;
+    }
+    .logo-subtitle {
+        letter-spacing: 0.07rem;
+    }
+    .text-part {
+        top: 11.2%;
+        left: 20%;
+    }
+    .button-title {
+        margin-left: 28%;
+    }
+    .about-wrapper {
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: 0 auto;
+        padding-top: 80px;
+        padding-left: 10px;
+    }
+    .about-text {
+        margin-left: 2%;
+        padding: 0;
+    }
+    .item3 {
+        line-height: 1.5rem;
+        width: 430px;
+    }
+    .about-text-item {
+        padding: 0;
+    }
+    .about-title {
+        padding-bottom: 25px;
+    }
+    .about-dog-text {
+        margin-top: 15px;
+        width: 430px;
+        line-height: 1.5rem;
+    }
+    .pets-image {
+        margin-top: 25%;
+        margin-right: 6%;
+    }
+    .pets-title-item {
+        line-height: 2.8125rem;
+        margin-top: 5px;
+    }
+    .none {
+        display: none;
+        
+    }
+    .cards {
+        justify-content: space-between;
+        width: 620px;
+    }
+    .card {
+        width: 270px;
+        height: 435px;
+margin-top: 6px;
+margin-left: 10px;
+    }
+    .item4card {
+        margin-top: 6px;
+        margin-left: 15px;
+    }
+    .aside {
+        width: 52px;
+        height: 448px;
+    }
+    .slider-menu {
+        justify-content: center;
+    }
+    .next__pos {
+        margin-left: -20px;
+    }
+    .pets-btn-footer {
+        margin-top: 7%;
+    }
+    .pets-btn {
+        letter-spacing: 0.06rem;
+    }
+    .pets-wrapper {
+        height: 85.15vh;
+    }
+    .help-wrapper {
+        height: 768px;
+    }
+    .help-title-item {
+        line-height: 2.9rem;
+    }
+}

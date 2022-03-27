@@ -1,0 +1,208 @@
+
+*,*::before,*::after {
+  box-sizing: border-box;}
+ul[class],
+ol[class] {padding: 0;}
+body,h1,h2,h3,h4,p,ul[class],ol[class],li,figure,figcaption,blockquote,dl,dd {margin: 0;}
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+ul[class],ol[class] {list-style: none;}
+a:not([class]) {text-decoration-skip-ink: auto;}
+img {max-width: 100%;display: block;}
+article > * + * {margin-top: 1em;}
+input,button,textarea,select {font: inherit;}
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+/* сброс стилей --------------------------------------------- */
+
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.container {
+    position: relative;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    max-width: 1200px;
+    height: 58px;
+    margin: 0 auto;
+    margin-top: 60px;
+    align-items: center;
+}
+.header {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.logo {
+    display: flex;
+    flex-direction: column;
+    width: 190px;
+}
+.logo-title {
+    font-size: 2rem;
+    letter-spacing: 0.12rem;
+}
+.logo-subtitle {
+    margin-left: 5px;
+    letter-spacing: 0.08rem;
+    font-size: 0.8125rem;
+}
+.nav-menu {
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-menu-item {
+    list-style-type: none;
+    margin-right: 35px;
+    font-size: 15px;
+}
+.nav-menu-item:last-child {
+    margin: 0;
+}
+
+.active {
+    color: #FAFAFA;
+}
+.nav-link {
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+.nav-link:hover {
+    background-size: 100% 2px;
+}
+.text-tittle-item {
+    position: absolute;
+    z-index: 5;
+}
+.main-part {
+    background-image: url(/assets/images/Start\ screen.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    max-width: 1280px;
+    height: 908px;
+    z-index: -1;
+    position: relative;
+}
+.text-part {
+    display: block;
+    position: absolute;
+    top: 342px;
+    line-height: 3.6rem;
+    left: 40px;
+}
+.main-text {
+    width: 310px;
+    font-size: 44px;
+}
+.main-subtitle {
+    margin-top: 9.5%;
+    width: 460px;
+    font-size: 15px;
+    line-height: 24px;
+}
+.button {
+    width: 207px;
+    height: 52px;
+    border-radius: 100px ;
+    cursor: pointer;
+}
+.button-title {
+    margin-top: 40px;
+    background-color: #F1CDB3;
+    font-size: 17px;
+    letter-spacing: 0.06rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+.footer-title {
+    font-size: 35px;
+}
+.questions {
+    width: 278px;
+    letter-spacing: 0.12rem;
+    line-height: 46px;
+}
+.questions-icon {
+    padding-right: 22px;
+}
+.questions-text {
+    font-size: 20px;
+    letter-spacing: 0.07rem;
+}
+.visit-title {
+    letter-spacing: 0.12rem;
+    line-height: 2.8rem;
+}
+.visit-icon {
+    padding-right: 22px;
+}
+.visit-text {
+    font-size: 20px;
+    letter-spacing: 0.06rem;
+    line-height: 23px;
+}
+.visit-item {
+    width: 302px;
+    display: flex;
+    padding-top: 32px;
+}
+.text1 {
+    padding-top: 5px;
+}
+.dog-image {
+    justify-content: flex-end;
+}
+.footer-wrapper {
+    align-items: flex-end;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    background: radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+linear-gradient(0deg, #211F20, #211F20);
+padding: 0 40px;
+
+}
+.visit__pos {
+    padding-bottom: 5%;
+}
+.questions__pos {
+    padding-bottom: 4%;
+}
+.questions-item {
+    padding-top: 32px;
+}
+.footer-email {
+    display: flex;
+}
+.footer-phone {
+    padding-top: 10%;
+    display: flex;
+}
