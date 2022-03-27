@@ -1,0 +1,109 @@
+
+.pets-wrapper {
+    background-color: #F6F6F6;
+    height: 877px;
+    position: relative;
+}
+.pets-title-item {
+    position: absolute;
+    top: 9.1%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 35px;
+    width: 410px;
+    margin: 0 auto;
+    letter-spacing: 0.14rem;
+    line-height: 2.9rem;
+    color:#545454;
+    text-align: center;
+}
+.slider-menu {
+    position: absolute;
+    top: 20%;
+    max-width: 1280px;
+    display: flex;
+    max-height: 700px;
+}
+.cards {
+    width: 1010px;
+    margin-top: 55px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card {
+    width: 270px;
+    height: 435px;
+    background-color: white;
+    text-align: center;
+}
+.card-text {
+    font-size: 20px;
+    padding-top: 1.7rem;
+    letter-spacing: 0.08rem;
+}
+.pets-button {
+    margin: 28px 0 0 0;
+    width: 187px;
+    font-size: 17px;
+    letter-spacing: 0.08rem;
+    border: 2px solid #F1CDB3;
+    background-color: white;
+}
+.aside {
+    margin-top: 55px;
+    width: 135px;
+}
+.item4card {
+    margin: 0 8%;
+}
+.prev {
+    width: 52px;
+    height: 52px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: 2px solid #F1CDB3;
+}
+.prev__pos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.next {
+    width: 52px;
+    height: 52px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: 2px solid #F1CDB3;
+}
+.next__pos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pets-btn-footer {
+    position: absolute;
+    top: 76.1%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0 auto;
+    margin-top: 60px; 
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+}
+.pets-btn {
+    border: 2px solid #F1CDB3;
+    width: 261px;
+    padding: 20px;
+    letter-spacing: 0.06rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F1CDB3;
+}
